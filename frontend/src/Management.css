@@ -1,0 +1,143 @@
+/* Overall Management Container */
+.management {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: #121212;
+    color: #ffffff;
+    min-height: 100vh;
+}
+
+/* Heading Styling */
+.management h1 {
+    color: #bb86fc;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Add User Form Section */
+.add-user-form {
+    background-color: #1f1f1f;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+    width: 100%;
+    max-width: 450px;
+    margin-top: 20px;       
+}
+
+.add-user-form h2 {
+    color: #bb86fc;
+    margin-bottom: 15px;
+}
+
+.add-user-form input {
+    margin: 5px 0;
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background-color: #2e2e2e;
+    color: #ffffff;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.add-user-form input::placeholder {
+    color: #888;
+}
+
+.add-user-form input:focus {
+    border-color: #bb86fc;
+    outline: none;
+}
+
+.add-user-form button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #bb86fc;
+    color: #121212;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+.add-user-form button:hover {
+    background-color: #9a66e4;
+}
+
+/* User List Section */
+.user-list {
+    background-color: #1f1f1f;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+.user-list:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.9);
+}
+
+.user-list h2 {
+    color: #bb86fc;
+    margin-bottom: 15px;
+}
+
+/* User Item Styling */
+.user-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2e2e2e;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.user-item:hover {
+    background-color: #3a3a3a;
+}
+
+/* Delete Button Styling */
+.delete-button {
+    background-color: #ff5252;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+    background-color: #ff1744;
+}
+
+/* Logout Button */
+.logout-button {
+    background-color: #ff9800;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+    background-color: #fb8c00;
+}

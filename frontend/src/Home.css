@@ -1,0 +1,74 @@
+/* Scoped Styles for Home Component */
+.home-container {
+    text-align: center;
+    padding: 40px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+    margin: 40px auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('https://via.placeholder.com/800'); /* Optional background image */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Title Styling */
+.home-container h1 {
+    color: #bb86fc;
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* List of Users */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #333333;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    font-size: 18px;
+}
+
+li span {
+    color: #bb86fc;
+}
+
+/* Button Container */
+.button-container {
+    margin-top: 20px;
+}
+
+/* Home Button Styling */
+.home-button {
+    margin: 10px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #bb86fc;
+    color: #121212;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.home-button:hover {
+    background-color: #9a66e4;
+    transform: translateY(-3px);
+}
+
+.home-button:active {
+    transform: translateY(1px);
+}
