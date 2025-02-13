@@ -7,7 +7,7 @@ services:
     environment:
       PMA_HOST: db
       PMA_USER: root
-      PMA_PASSWORD: tinnadech
+      PMA_PASSWORD: root
     depends_on:
       - db
     networks:
