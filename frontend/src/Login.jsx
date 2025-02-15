@@ -37,7 +37,7 @@ const Login = () => {
             <div>
                 <input
                     type="email"
-                    placeholder="Email"
+                    placeholder="Email (Admin management: Admin@gmail.com): "
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     required
@@ -46,7 +46,7 @@ const Login = () => {
             <div>
                 <input
                     type="password"
-                    placeholder="Password"
+                    placeholder="Password (Admin management: 123): "
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                     required
